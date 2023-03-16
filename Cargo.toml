@@ -1,0 +1,16 @@
+[package]
+name = "caulk"
+version = "0.1.0"
+edition = "2021"
+authors = ["tropicbliss <tropicbliss@protonmail.com>"]
+description = "A simple Modrinth mod downloader"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.69"
+clap = { version = "4.1.8", features = ["derive"] }
+dialoguer = "0.10.3"
+indicatif = "0.17.3"
+reqwest = { version = "0.11.14", features = ["blocking", "json"] }
+serde = { version = "1.0.155", features = ["derive"] }
