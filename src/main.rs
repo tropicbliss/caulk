@@ -57,6 +57,7 @@ fn main() -> Result<()> {
         for dep in dep_info {
             println!("{} ({})", dep.0, dep.1);
         }
+        println!();
     }
     println!("Saved {} successfully!", link.filename);
     Ok(())
